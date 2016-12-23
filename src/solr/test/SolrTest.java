@@ -31,7 +31,7 @@ public class SolrTest {
 		document.addField("id", "test2");
 		document.addField("item_title", "测试数据1");
 		document.addField("item_price", 1232133);
-		
+		//qq
 		solrServer.add(document);
 		
 		solrServer.commit();
